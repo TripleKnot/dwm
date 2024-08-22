@@ -3,7 +3,7 @@
 /* Constants */
 #define TERMINAL "st"
 #define TERMCLASS "St"
-#define BROWSER "librewolf"
+#define BROWSER "librewolf-bin"
 
 /* appearance */
 static unsigned int borderpx  = 3;        /* border pixel of windows */
@@ -193,7 +193,7 @@ static const Key keys[] = {
 	{ MODKEY,			XK_s,          togglesticky,           {0} },
 	/* { MODKEY|ShiftMask,		XK_s,          spawn,                  SHCMD("") }, */
 	{ MODKEY,			XK_d,          spawn,                  {.v = (const char*[]){ "dmenu_run", NULL } } },
-	{ MODKEY|ShiftMask,		XK_d,          spawn,                  {.v = (const char*[]){ "passmenu", NULL } } },
+	{ MODKEY|ShiftMask,		XK_d,          spawn,                  {.v = (const char*[]){ "keepassxc", NULL } } },
 	{ MODKEY,			XK_f,          togglefullscr,          {0} },
 	{ MODKEY|ShiftMask,		XK_f,          setlayout,              {.v = &layouts[8]} },
 	{ MODKEY,			XK_g,          shiftview,              { .i = -1 } },
