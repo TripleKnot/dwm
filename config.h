@@ -113,8 +113,8 @@ ResourcePref resources[] = {
 		{ "color8",		STRING,	&normbordercolor },
 		{ "color1",		STRING,	&selbordercolor },              /* window border color */
 		{ "color0",		STRING,	&normbgcolor },
-		{ "color8",		STRING,	&normfgcolor },                 /* status bar color */ 
-		{ "color0",		STRING,	&selfgcolor },
+		{ "color77",		STRING,	&normfgcolor },                 /* status bar color */ 
+		{ "color78",		STRING,	&selfgcolor },
 		{ "color4",		STRING,	&selbgcolor },                  /* window name color */
 		{ "borderpx",		INTEGER, &borderpx },
 		{ "snap",		INTEGER, &snap },
